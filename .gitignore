@@ -1,10 +1,17 @@
-# Python-generated files
+# Datasets
+data/
+
+# Trained PyTorch models
+*.pth
+*.pt
+
+# Python cache
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
 
 # Virtual environments
-.venv
+.venv/
+venv/
