@@ -1,0 +1,14 @@
+[project]
+name = "lab-pytorch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "scikit-learn>=1.9.1",
+    "torcheval>=0.0.7",
+    "torchmetrics>=1.9.0",
+    "torchviz>=0.0.3",
+]
